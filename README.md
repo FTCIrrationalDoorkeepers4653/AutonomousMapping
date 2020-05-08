@@ -5,33 +5,33 @@ Autonomous Mapping Application for FTC teams
 You can either download and use this repo or use an installation Software (i.e <i>Maven</i> or <i>Gradle</i>).
 
 Maven:
-```
-  <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+```XML
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
   
-  <dependencies>
-    <dependency>
-	    <groupId>com.github.FTCIrrationalDoorkeepers4653</groupId>
-	    <artifactId>AutonomousMapping</artifactId>
-	    <version>1.0</version>
-	  </dependency>
-  </dependencies>  
+<dependencies>
+  <dependency>
+    <groupId>com.github.FTCIrrationalDoorkeepers4653</groupId>
+    <artifactId>AutonomousMapping</artifactId>
+    <version>1.0</version>
+  </dependency>
+</dependencies>  
 ```
 Gradle:
-```
-  allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	}
+```Java
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
   
-  dependencies {
-	  implementation 'com.github.FTCIrrationalDoorkeepers4653:AutonomousMapping:1.0'
-	}
+dependencies {
+  implementation 'com.github.FTCIrrationalDoorkeepers4653:AutonomousMapping:1.0'
+}
 ```
 
 ## Running:
