@@ -30,7 +30,7 @@ allprojects {
 }
   
 dependencies {
-  implementation 'com.github.FTCIrrationalDoorkeepers4653:AutonomousMapping:1.0'
+  implementation 'com.github.FTCIrrationalDoorkeepers4653:AutonomousMapping:Tag'
 }
 ```
 
