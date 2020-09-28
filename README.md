@@ -23,6 +23,7 @@ Maven:
   </dependency>
 </dependencies>  
 ```
+
 Gradle:
 ```Java
 allprojects {
@@ -35,8 +36,3 @@ dependencies {
   implementation 'com.github.FTCIrrationalDoorkeepers4653:AutonomousMapping:Tag'
 }
 ```
-
-## Running:
-
-To run the application you have to download java on a compatible computer. You can either use an IDE or use the .jar and .exe files to run the application.
-
