@@ -36,3 +36,7 @@ dependencies {
   implementation 'com.github.FTCIrrationalDoorkeepers4653:AutonomousMapping:Tag'
 }
 ```
+
+## Usage:
+
+To draw your path on the canvas, just click once on the start position, and then on the end position. A purple line will appear on the screen and the information will be printed to the console. To move the screen around, just click and drag anywhere on the canvas. Lastly, to close the screen just press "e" when focused on the screen or click the "X" via the taskbar. 
